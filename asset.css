@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    background: url(img/pabrik.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+div.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.grid {
+    text-align: center;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    color: #04AA6D;
+    font-size: 50px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 4px;
+    margin: 5px;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.form {
+    display: table;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px 20px;
+    font-size: large;
+}
